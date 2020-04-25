@@ -12,7 +12,7 @@ public class HiController {
 
     @RequestMapping("/hi")
     public String getPort(String name) {
-        return "hi " + name + "I am " + port;
+        return "hi " + name + "， I am " + port;
     }
 
 }
