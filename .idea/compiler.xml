@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="custom-feign" />
+        <module name="eureka-client" />
+        <module name="a-config-server" />
+        <module name="custom-zuul" />
+        <module name="springcloud-study" />
+        <module name="eureka-server-config" />
+        <module name="a-config-client" />
+        <module name="eureka-client-config" />
+        <module name="custom-ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="a-config-client" target="1.8" />
+      <module name="a-config-server" target="1.8" />
+      <module name="client-config-one" target="1.8" />
+      <module name="custom-feign" target="1.8" />
+      <module name="custom-ribbon" target="1.8" />
+      <module name="custom-zuul" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-client-config" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-config" target="1.8" />
+      <module name="server-config-one" target="1.8" />
+      <module name="springcloud-study" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="a-config-client" options="-parameters" />
+      <module name="a-config-server" options="-parameters" />
+      <module name="client-config-one" options="-parameters" />
+      <module name="custom-feign" options="-parameters" />
+      <module name="custom-ribbon" options="-parameters" />
+      <module name="custom-zuul" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-client-config" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server-config" options="-parameters" />
+      <module name="server-config-one" options="-parameters" />
+      <module name="springcloud-study" options="-parameters" />
+    </option>
+  </component>
+</project>

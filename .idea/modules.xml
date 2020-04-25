@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/a-config-client/a-config-client.iml" filepath="$PROJECT_DIR$/a-config-client/a-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a-config-server/a-config-server.iml" filepath="$PROJECT_DIR$/a-config-server/a-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-feign/custom-feign.iml" filepath="$PROJECT_DIR$/custom-feign/custom-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-ribbon/custom-ribbon.iml" filepath="$PROJECT_DIR$/custom-ribbon/custom-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-zuul/custom-zuul.iml" filepath="$PROJECT_DIR$/custom-zuul/custom-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-config/eureka-client-config.iml" filepath="$PROJECT_DIR$/eureka-client-config/eureka-client-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-config/eureka-server-config.iml" filepath="$PROJECT_DIR$/eureka-server-config/eureka-server-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-study.iml" filepath="$PROJECT_DIR$/springcloud-study.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+#找到注册中心的地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:18011/eureka/
+#当前项目准备部署的端口
+server:
+  port: 18016
+#当前项目的服务器名称
+spring:
+  application:
+    name: custom-zuul
+#配置网关路由
+zuul:
+  routes:
+    api-a:
+      #/api-ribbon/**请求转发到custom-ribbon服务器
+      path: /api-ribbon/**
+      serviceId: custom-ribbon
+    api-b:
+      #/api-feign/**请求转发到custom-feign服务器
+      path: /api-feign/**
+      serviceId: custom-feign
+
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000

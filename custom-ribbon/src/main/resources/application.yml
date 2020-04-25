@@ -1,0 +1,16 @@
+#当前项目要被部署的端口
+server:
+  port: 18014
+
+#当前ribbon项目注册到下面配置的注册中心中
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:18011/eureka/
+
+#当前项目名
+spring:
+  application:
+    name: custom-ribbon
+
+
