@@ -11,7 +11,7 @@ public class HelloController {
     @Autowired
     private HelloService helloService;
 
-    @RequestMapping("/hello")
+    @RequestMapping("/hi")
     public String getPort(String name){
         return helloService.getPort(name);
     }

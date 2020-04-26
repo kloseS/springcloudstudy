@@ -7,6 +7,6 @@ public class ErrorClass implements HelloService {
 
     @Override
     public String getPort(String name) {
-        return "null error";
+        return "do something to handle error";
     }
 }
