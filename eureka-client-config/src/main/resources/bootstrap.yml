@@ -3,7 +3,7 @@ spring:
     config:
       name: application
       profile: dev
-      uri: http://localhost:8001/
+#      uri: http://localhost:8001/
       label: master
       discovery:
         enabled: true
